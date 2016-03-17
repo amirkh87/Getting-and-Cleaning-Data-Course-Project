@@ -27,7 +27,6 @@ DF<-tbl_df(DF)
 DF[, 3:81] <- sapply(DF[, 3:81], as.numeric)
 DF_means<-DF %>% group_by(activity,sub) %>% summarise_each(funs(mean))
 DF_means<-arrange(DF_means,activity,sub)
-write.table(DF_means,"DF_means.txt",row.names = FALSE)
 rm(list=(c("activity_names","comb_sub","comb_x","comb_y","mean_std","test_sub",
           "test_x","test_y","train_sub","train_x","train_y","v_names","DF")))
 View(DF_means)
