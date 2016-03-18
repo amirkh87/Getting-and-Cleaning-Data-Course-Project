@@ -1,6 +1,6 @@
 #Code Book
 
-This section contains specific information each variable (column) included in the uploaded table, HAR-subject-activity-mean.txt. Most of the variables are summarizations of variables with the same name and description in the Human Activity Recognition Using Smartphones Dataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The variables are described in the features_info.txt and README.txt in that dataset. Please see those files for more details.
+This section contains information of each variable (column) included in the uploaded table : "DF_means.txt". Most of the variables are summarizations of variables with the same name and description in the Human Activity Recognition Using Smartphones Dataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The variables are described in the features_info.txt and README.txt in that dataset. Please see those files for more details.
 
 Units (according to the README.txt file):
 
@@ -8,84 +8,87 @@ For all accelerometer-related variables (containing the word "Acc" in the variab
 For all gyroscope-related variables (containing the word "Gyro" in the variable name), the units are radians/second.
 Selected variable name and description:
 
-subject: The integer id of one of the 30 subjects, ranging from 1 to 30.
-activity: The type of activity the subject was engaged in. One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-subject-activity-mean-tBodyAcc-mean()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyAcc-mean()-X.
-subject-activity-mean-tBodyAcc-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyAcc-mean()-Y.
-subject-activity-mean-tBodyAcc-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyAcc-mean()-Z.
-subject-activity-mean-tBodyAcc-std()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyAcc-std()-X.
-subject-activity-mean-tBodyAcc-std()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyAcc-std()-Y.
-subject-activity-mean-tBodyAcc-std()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyAcc-std()-Z.
-subject-activity-mean-tGravityAcc-mean()-X: The mean of all time window values for each combination of subject and activity for the variable tGravityAcc-mean()-X.
-subject-activity-mean-tGravityAcc-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable tGravityAcc-mean()-Y.
-subject-activity-mean-tGravityAcc-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable tGravityAcc-mean()-Z.
-subject-activity-mean-tGravityAcc-std()-X: The mean of all time window values for each combination of subject and activity for the variable tGravityAcc-std()-X.
-subject-activity-mean-tGravityAcc-std()-Y: The mean of all time window values for each combination of subject and activity for the variable tGravityAcc-std()-Y.
-subject-activity-mean-tGravityAcc-std()-Z: The mean of all time window values for each combination of subject and activity for the variable tGravityAcc-std()-Z.
-subject-activity-mean-tBodyAccJerk-mean()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerk-mean()-X.
-subject-activity-mean-tBodyAccJerk-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerk-mean()-Y.
-subject-activity-mean-tBodyAccJerk-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerk-mean()-Z.
-subject-activity-mean-tBodyAccJerk-std()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerk-std()-X.
-subject-activity-mean-tBodyAccJerk-std()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerk-std()-Y.
-subject-activity-mean-tBodyAccJerk-std()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerk-std()-Z.
-subject-activity-mean-tBodyGyro-mean()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyGyro-mean()-X.
-subject-activity-mean-tBodyGyro-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyGyro-mean()-Y.
-subject-activity-mean-tBodyGyro-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyGyro-mean()-Z.
-subject-activity-mean-tBodyGyro-std()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyGyro-std()-X.
-subject-activity-mean-tBodyGyro-std()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyGyro-std()-Y.
-subject-activity-mean-tBodyGyro-std()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyGyro-std()-Z.
-subject-activity-mean-tBodyGyroJerk-mean()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerk-mean()-X.
-subject-activity-mean-tBodyGyroJerk-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerk-mean()-Y.
-subject-activity-mean-tBodyGyroJerk-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerk-mean()-Z.
-subject-activity-mean-tBodyGyroJerk-std()-X: The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerk-std()-X.
-subject-activity-mean-tBodyGyroJerk-std()-Y: The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerk-std()-Y.
-subject-activity-mean-tBodyGyroJerk-std()-Z: The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerk-std()-Z.
-subject-activity-mean-tBodyAccMag-mean(): The mean of all time window values for each combination of subject and activity for the variable tBodyAccMag-mean().
-subject-activity-mean-tBodyAccMag-std(): The mean of all time window values for each combination of subject and activity for the variable tBodyAccMag-std().
-subject-activity-mean-tGravityAccMag-mean(): The mean of all time window values for each combination of subject and activity for the variable tGravityAccMag-mean().
-subject-activity-mean-tGravityAccMag-std(): The mean of all time window values for each combination of subject and activity for the variable tGravityAccMag-std().
-subject-activity-mean-tBodyAccJerkMag-mean(): The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerkMag-mean().
-subject-activity-mean-tBodyAccJerkMag-std(): The mean of all time window values for each combination of subject and activity for the variable tBodyAccJerkMag-std().
-subject-activity-mean-tBodyGyroMag-mean(): The mean of all time window values for each combination of subject and activity for the variable tBodyGyroMag-mean().
-subject-activity-mean-tBodyGyroMag-std(): The mean of all time window values for each combination of subject and activity for the variable tBodyGyroMag-std().
-subject-activity-mean-tBodyGyroJerkMag-mean(): The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerkMag-mean().
-subject-activity-mean-tBodyGyroJerkMag-std(): The mean of all time window values for each combination of subject and activity for the variable tBodyGyroJerkMag-std().
-subject-activity-mean-fBodyAcc-mean()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-mean()-X.
-subject-activity-mean-fBodyAcc-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-mean()-Y.
-subject-activity-mean-fBodyAcc-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-mean()-Z.
-subject-activity-mean-fBodyAcc-std()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-std()-X.
-subject-activity-mean-fBodyAcc-std()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-std()-Y.
-subject-activity-mean-fBodyAcc-std()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-std()-Z.
-subject-activity-mean-fBodyAcc-meanFreq()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-meanFreq()-X.
-subject-activity-mean-fBodyAcc-meanFreq()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-meanFreq()-Y.
-subject-activity-mean-fBodyAcc-meanFreq()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyAcc-meanFreq()-Z.
-subject-activity-mean-fBodyAccJerk-mean()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-mean()-X.
-subject-activity-mean-fBodyAccJerk-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-mean()-Y.
-subject-activity-mean-fBodyAccJerk-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-mean()-Z.
-subject-activity-mean-fBodyAccJerk-std()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-std()-X.
-subject-activity-mean-fBodyAccJerk-std()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-std()-Y.
-subject-activity-mean-fBodyAccJerk-std()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-std()-Z.
-subject-activity-mean-fBodyAccJerk-meanFreq()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-meanFreq()-X.
-subject-activity-mean-fBodyAccJerk-meanFreq()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-meanFreq()-Y.
-subject-activity-mean-fBodyAccJerk-meanFreq()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyAccJerk-meanFreq()-Z.
-subject-activity-mean-fBodyGyro-mean()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-mean()-X.
-subject-activity-mean-fBodyGyro-mean()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-mean()-Y.
-subject-activity-mean-fBodyGyro-mean()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-mean()-Z.
-subject-activity-mean-fBodyGyro-std()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-std()-X.
-subject-activity-mean-fBodyGyro-std()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-std()-Y.
-subject-activity-mean-fBodyGyro-std()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-std()-Z.
-subject-activity-mean-fBodyGyro-meanFreq()-X: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-meanFreq()-X.
-subject-activity-mean-fBodyGyro-meanFreq()-Y: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-meanFreq()-Y.
-subject-activity-mean-fBodyGyro-meanFreq()-Z: The mean of all time window values for each combination of subject and activity for the variable fBodyGyro-meanFreq()-Z.
-subject-activity-mean-fBodyAccMag-mean(): The mean of all time window values for each combination of subject and activity for the variable fBodyAccMag-mean().
-subject-activity-mean-fBodyAccMag-std(): The mean of all time window values for each combination of subject and activity for the variable fBodyAccMag-std().
-subject-activity-mean-fBodyAccMag-meanFreq(): The mean of all time window values for each combination of subject and activity for the variable fBodyAccMag-meanFreq().
-subject-activity-mean-fBodyBodyAccJerkMag-mean(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyAccJerkMag-mean().
-subject-activity-mean-fBodyBodyAccJerkMag-std(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyAccJerkMag-std().
-subject-activity-mean-fBodyBodyAccJerkMag-meanFreq(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyAccJerkMag-meanFreq().
-subject-activity-mean-fBodyBodyGyroMag-mean(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyGyroMag-mean().
-subject-activity-mean-fBodyBodyGyroMag-std(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyGyroMag-std().
-subject-activity-mean-fBodyBodyGyroMag-meanFreq(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyGyroMag-meanFreq().
-subject-activity-mean-fBodyBodyGyroJerkMag-mean(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyGyroJerkMag-mean().
-subject-activity-mean-fBodyBodyGyroJerkMag-std(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyGyroJerkMag-std().
-subject-activity-mean-fBodyBodyGyroJerkMag-meanFreq(): The mean of all time window values for each combination of subject and activity for the variable fBodyBodyGyroJerkMag-meanFreq().
+"1" "activity" :  The type of activity the subject was engaged in. One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+"2" "sub" : The integer id of one of the 30 subjects, ranging from 1 to 30.
+each column contains The mean of all time window values for each combination of subject and activity for the variables :
+"3" "tBodyAcc-mean()-X"
+"4" "tBodyAcc-mean()-Y"
+"5" "tBodyAcc-mean()-Z"
+"6" "tBodyAcc-std()-X"
+"7" "tBodyAcc-std()-Y"
+"8" "tBodyAcc-std()-Z"
+"9" "tGravityAcc-mean()-X"
+"10" "tGravityAcc-mean()-Y"
+"11" "tGravityAcc-mean()-Z"
+"12" "tGravityAcc-std()-X"
+"13" "tGravityAcc-std()-Y"
+"14" "tGravityAcc-std()-Z"
+"15" "tBodyAccJerk-mean()-X"
+"16" "tBodyAccJerk-mean()-Y"
+"17" "tBodyAccJerk-mean()-Z"
+"18" "tBodyAccJerk-std()-X"
+"19" "tBodyAccJerk-std()-Y"
+"20" "tBodyAccJerk-std()-Z"
+"21" "tBodyGyro-mean()-X"
+"22" "tBodyGyro-mean()-Y"
+"23" "tBodyGyro-mean()-Z"
+"24" "tBodyGyro-std()-X"
+"25" "tBodyGyro-std()-Y"
+"26" "tBodyGyro-std()-Z"
+"27" "tBodyGyroJerk-mean()-X"
+"28" "tBodyGyroJerk-mean()-Y"
+"29" "tBodyGyroJerk-mean()-Z"
+"30" "tBodyGyroJerk-std()-X"
+"31" "tBodyGyroJerk-std()-Y"
+"32" "tBodyGyroJerk-std()-Z"
+"33" "tBodyAccMag-mean()"
+"34" "tBodyAccMag-std()"
+"35" "tGravityAccMag-mean()"
+"36" "tGravityAccMag-std()"
+"37" "tBodyAccJerkMag-mean()"
+"38" "tBodyAccJerkMag-std()"
+"39" "tBodyGyroMag-mean()"
+"40" "tBodyGyroMag-std()"
+"41" "tBodyGyroJerkMag-mean()"
+"42" "tBodyGyroJerkMag-std()"
+"43" "fBodyAcc-mean()-X"
+"44" "fBodyAcc-mean()-Y"
+"45" "fBodyAcc-mean()-Z"
+"46" "fBodyAcc-std()-X"
+"47" "fBodyAcc-std()-Y"
+"48" "fBodyAcc-std()-Z"
+"49" "fBodyAcc-meanFreq()-X"
+"50" "fBodyAcc-meanFreq()-Y"
+"51" "fBodyAcc-meanFreq()-Z"
+"52" "fBodyAccJerk-mean()-X"
+"53" "fBodyAccJerk-mean()-Y"
+"54" "fBodyAccJerk-mean()-Z"
+"55" "fBodyAccJerk-std()-X"
+"56" "fBodyAccJerk-std()-Y"
+"57" "fBodyAccJerk-std()-Z"
+"58" "fBodyAccJerk-meanFreq()-X"
+"59" "fBodyAccJerk-meanFreq()-Y"
+"60" "fBodyAccJerk-meanFreq()-Z"
+"61" "fBodyGyro-mean()-X"
+"62" "fBodyGyro-mean()-Y"
+"63" "fBodyGyro-mean()-Z"
+"64" "fBodyGyro-std()-X"
+"65" "fBodyGyro-std()-Y"
+"66" "fBodyGyro-std()-Z"
+"67" "fBodyGyro-meanFreq()-X"
+"68" "fBodyGyro-meanFreq()-Y"
+"69" "fBodyGyro-meanFreq()-Z"
+"70" "fBodyAccMag-mean()"
+"71" "fBodyAccMag-std()"
+"72" "fBodyAccMag-meanFreq()"
+"73" "fBodyBodyAccJerkMag-mean()"
+"74" "fBodyBodyAccJerkMag-std()"
+"75" "fBodyBodyAccJerkMag-meanFreq()"
+"76" "fBodyBodyGyroMag-mean()"
+"77" "fBodyBodyGyroMag-std()"
+"78" "fBodyBodyGyroMag-meanFreq()"
+"79" "fBodyBodyGyroJerkMag-mean()"
+"80" "fBodyBodyGyroJerkMag-std()"
+"81" "fBodyBodyGyroJerkMag-meanFreq()"
+
+
