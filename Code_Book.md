@@ -10,7 +10,7 @@ Selected variable name and description:
 
 1. "activity" :  The type of activity the subject was engaged in. One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 2. "sub" : The integer id of one of the 30 subjects, ranging from 1 to 30.
-* each column contains The mean of all time window values for each combination of subject and activity for the variables :
+_ each column contains The mean of all time window values for each combination of subject and activity for the variables :
 3. "tBodyAcc-mean()-X"
 4. "tBodyAcc-mean()-Y"
 5. "tBodyAcc-mean()-Z"
